@@ -31,7 +31,7 @@ except LookupError:
 # ===============================
 # LOAD MODEL
 # ===============================
-model = joblib.load("bernoulli_nb.pkl")
+model = joblib.load("bnb_tfidf.pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")
 
 # Cek model info
