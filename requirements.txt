@@ -4,3 +4,4 @@ nltk
 Sastrawi
 joblib
 plotly
+xlsxwriter
