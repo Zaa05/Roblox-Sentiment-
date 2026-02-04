@@ -34,8 +34,8 @@ except LookupError:
 # ===============================
 # LOAD MODEL
 # ===============================
-model = joblib.load("bnb_tfidf.pkl")
-tfidf = joblib.load("tfidf_vectorizer.pkl")
+model = joblib.load("mnb_model.pkl")
+tfidf = joblib.load("mnb_tfidf.pkl")
 
 # Cek model info
 st.sidebar.markdown("### ℹ️ Info Model")
