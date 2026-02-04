@@ -3,3 +3,4 @@ scikit-learn
 nltk
 Sastrawi
 joblib
+plotly
